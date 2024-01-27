@@ -50,6 +50,7 @@ def job():
       requests.get(url+acc2)
       idOfInsta = "17841452627741485"
       urll = "https://graph.facebook.com/v13.0/"+idOfInsta+"/media?image_url=https://conquestist.github.io/jpeg/4c44f07b45288bbce019fe0263fb4c9c.jpeg&caption="+jokeForUrl+'\n'+persianJoke+"&access_token="+acc2
+      requests.get(url+"gonna smash your ass")
       reqForInsta = requests.post(urll)
       time.sleep(1)
       resOfInsta = reqForInsta.text
@@ -64,6 +65,7 @@ def job():
       requests.get(url+"container id is: "+containersId)
       time.sleep(1)
       publish = "https://graph.facebook.com/v13.0/"+idOfInsta+"/media_publish?creation_id="+containersId+"&access_token="+acc2
+      requests.get(url+"going to reqpost")
       reqForPublish = requests.post(publish)
       time.sleep(1)
       requests.get(url+"done\n"+reqForInsta.text)

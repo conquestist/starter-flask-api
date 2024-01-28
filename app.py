@@ -11,7 +11,7 @@ def hello_world():
 def pussy():
     return 'pussy'
 
-@app.route('duc')
+@app.route('/duc')
 def duc():
     bot.job()
     return "got you bro"

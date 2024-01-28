@@ -5,8 +5,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    schedule.every().hour.do(bot.job)
-    while True:
-        schedule.run_pending()
-        time.sleep(900)
     return 'Hello, world!'
+
+@app.route('/pussy')
+def pussy():
+    return 'pussy'
+
+@app.route('duc')
+def duc():
+    bot.job()
+    return "got you bro"
+

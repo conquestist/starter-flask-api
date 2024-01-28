@@ -1,4 +1,4 @@
-import schedule
+#import schedule
 import time
 import json
 from datetime import datetime as dt
@@ -75,12 +75,12 @@ def job():
       
 
 
-schedule.every().hour.do(job)
+#schedule.every().hour.do(job)
 
 
-while True:
-  schedule.run_pending()
-  time.sleep(900)
+#while True:
+#  schedule.run_pending()
+#  time.sleep(900)
 
 
 
